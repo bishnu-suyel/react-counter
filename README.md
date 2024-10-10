@@ -1,4 +1,5 @@
 # React + TypeScript + Vite
+![GitHub Actions](https://img.shields.io/badge/build-github_actions-brightgreen)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

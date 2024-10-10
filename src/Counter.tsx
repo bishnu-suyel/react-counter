@@ -42,7 +42,7 @@ const handleRandomPlay = () => {
     }
 };
   return (
-    <div className="row text-white text-center">
+    <div className="row text-white text-center w-100 ">
         <h1>Counter:{counter}</h1>
         <p>You win at +10 points and lose at -10 points</p>
         <p>Let's play:{lastPlay}</p>
@@ -66,8 +66,8 @@ const handleRandomPlay = () => {
             border:'2px solid red'}} />
         </div>
         <div className="col-12 col-md-4 offset-md-4">
-        <button onClick={handleRandomPlay} className='btn btn-secondary w-100 mt-4'>Random Play</button>
-        <button  onClick ={handleReset}className='btn btn-warning w-100 mt-'>Reset</button>
+        <button onClick={handleRandomPlay} className='btn btn-secondary w-100 mt-2'>Random Play</button>
+        <button  onClick ={handleReset}className='btn btn-warning w-100 mt-2'>Reset</button>
         </div>
     </div>
   );
